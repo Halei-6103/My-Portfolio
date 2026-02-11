@@ -1,6 +1,6 @@
-# Ian Portfolio
+# My Portfolio
 
-Monochrome portfolio built with Vite + React, for GitHub Pages.
+Monochrome portfolio built with Vite + React, deployed on GitHub Pages.
 
 ## Run locally
 
@@ -15,18 +15,22 @@ npm run dev
 npm run build
 ```
 
-## Deploy to GitHub Pages
+## Deploy to GitHub Pages (repo: My-Portfolio)
 
-1. Create a repo on GitHub (e.g. `Ian-Portfolio`).
-2. If the site will be at `https://<username>.github.io/<repo-name>/`, set the base in `vite.config.ts`:
-   ```ts
-   base: '/Ian-Portfolio/',  // use your repo name
+1. Create a repo on GitHub named **My-Portfolio** and add it as `origin`:
+   ```bash
+   git remote add origin https://github.com/<username>/My-Portfolio.git
    ```
-3. Install and deploy:
+
+2. Build and push the site to the `gh-pages` branch:
    ```bash
    npm install
    npm run deploy
    ```
-4. In the repo: **Settings → Pages** → Source: **Deploy from a branch** → Branch: **gh-pages** → Save.
 
-Your site will be at `https://<username>.github.io/<repo-name>/`.
+3. In the repo on GitHub: **Settings → Pages**  
+   - Source: **Deploy from a branch**  
+   - Branch: **gh-pages** (and `/ (root)`)  
+   - Save.
+
+Your site will be at **https://\<username>.github.io/My-Portfolio/**.

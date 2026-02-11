@@ -77,15 +77,3 @@ The result is a technical, minimalist visual identity that reflects a developer-
 ### Deployment
 - GitHub Pages
 - GitHub Actions (automatic build and deploy on push to `main`)
-
----
-
-## Deployment Configuration
-
-The project is configured for GitHub Pages with:
-
-```ts
-// vite.config.ts
-export default defineConfig({
-  base: '/My-Portfolio/',
-})

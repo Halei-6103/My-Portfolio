@@ -1,4 +1,4 @@
-# Ian’s Portfolio
+# Ian’s Portfolio 🚀
 
 🔗 **Live Site:**  
 https://halei-6103.github.io/My-Portfolio/
@@ -11,11 +11,11 @@ The design centers around a full-bleed ASCII-style portrait background with a da
 
 ---
 
-## Overview
+## Overview 🧠
 
 This portfolio highlights projects through an interactive, app-like interface rather than a traditional static layout.
 
-### Typography
+### Typography ✍️
 - **Space Grotesk** — headings and display text  
 - **JetBrains Mono** — body text and UI elements  
 
@@ -23,9 +23,9 @@ The result is a technical, minimalist visual identity that reflects a developer-
 
 ---
 
-## Features
+## Features ✨
 
-### Hero Section
+### Hero Section 🏠
 - Name and tagline
 - Smooth-scroll navigation to:
   - Projects
@@ -35,7 +35,7 @@ The result is a technical, minimalist visual identity that reflects a developer-
 
 ---
 
-### Projects Section
+### Projects Section 💻
 - Horizontally aligned project cards
 - Each card supports:
   - Opening the project in a new tab
@@ -48,12 +48,12 @@ The result is a technical, minimalist visual identity that reflects a developer-
 
 ---
 
-### About Section
+### About Section 👤
 - Dedicated space for a short personal bio
 
 ---
 
-### Contact Section
+### Contact Section 📬
 - Clean link cards for:
   - Email
   - LinkedIn
@@ -62,7 +62,7 @@ The result is a technical, minimalist visual identity that reflects a developer-
 
 ---
 
-## Tech Stack
+## Tech Stack 🛠️
 
 ### Frontend
 - React
@@ -71,9 +71,9 @@ The result is a technical, minimalist visual identity that reflects a developer-
 - CSS
 - HTML
 
-### Build Tool
+### Build Tool ⚡
 - Vite
 
-### Deployment
+### Deployment 🌍
 - GitHub Pages
 - GitHub Actions (automatic build and deploy on push to `main`)

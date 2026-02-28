@@ -23,6 +23,7 @@ const PROJECTS = [
     label: '02',
     href: '#',
     image: 'linear-gradient(135deg, #333 0%, #222 100%)',
+    comingSoon: true,
   },
   {
     id: '3',
@@ -108,6 +109,9 @@ function App() {
                   ) : (
                     <span className="project-card-image-bg" style={{ background: project.image }} />
                   )}
+                  {'comingSoon' in project && project.comingSoon && (
+                    <span className="project-card-coming-soon">Coming Soon</span>
+                  )}
                 </span>
                 <span className="project-card-title">{project.title}</span>
               </a>
@@ -116,9 +120,42 @@ function App() {
         </section>
 
         <section className="page-section" id="about">
-          <h2 className="section-heading">About</h2>
-          <div className="section-content">
-            <p className="muted">My bio and information will go here.</p>
+          <h2 className="section-heading">About Me</h2>
+          <div className="section-content about-content">
+            <p className="about-currently">Currently: Full-stack intern @ HireScore • Oregon State University CS (HCI) ’26</p>
+            <p className="about-body">
+              I'm Ian — a computer science student at Oregon State University, focused on human–computer interaction. I'm from Corvallis and work as a full-stack developer intern at HireScore (remote since July 2025), where I build production-ready UI with React and Mantine, refactor for clarity and performance, and focus on mobile responsiveness and accessibility. For my senior software engineering project, I'm team lead on a full-stack project for the OHSU Nursing Program — Flask and React, REST APIs, PostgreSQL, and real sprint and deployment workflows.
+            </p>
+            <p className="about-body">
+              When I'm not at the keyboard, I'm usually in the garage with my 1981 Honda CX500C, turning it into a scrambler style motorcycle. I'm also passionate about game development and hope to ship something that one day makes it to a stage like The Game Awards.
+            </p>
+            <ul className="quick-facts">
+              <li>Corvallis, OR</li>
+              <li>OSU · B.S. Computer Science (HCI), expected 2026</li>
+              <li>Full-stack intern @ HireScore (React, Mantine, accessibility)</li>
+              <li>Senior Capstone Project: team lead, Flask + React app for OHSU Nursing</li>
+            </ul>
+            <a
+              href={`${import.meta.env.BASE_URL}Resume_Ian_Hale.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume-doc-link"
+              aria-label="Open resume (PDF) in new tab to view or download"
+            >
+              <span className="resume-doc-image">
+                <svg viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                  <path d="M8 0h88l24 24v128a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8z" fill="rgba(255,255,255,0.06)" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
+                  <path d="M96 0v24h24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <line x1="20" y1="44" x2="100" y2="44" stroke="currentColor" strokeWidth="1" strokeOpacity="0.4"/>
+                  <line x1="20" y1="58" x2="92" y2="58" stroke="currentColor" strokeWidth="1" strokeOpacity="0.4"/>
+                  <line x1="20" y1="72" x2="88" y2="72" stroke="currentColor" strokeWidth="1" strokeOpacity="0.4"/>
+                  <line x1="20" y1="86" x2="96" y2="86" stroke="currentColor" strokeWidth="1" strokeOpacity="0.4"/>
+                  <line x1="20" y1="100" x2="84" y2="100" stroke="currentColor" strokeWidth="1" strokeOpacity="0.4"/>
+                  <text x="60" y="130" textAnchor="middle" fill="currentColor" fontSize="10" opacity="0.6" fontFamily="system-ui, sans-serif">Resume</text>
+                </svg>
+              </span>
+              <span className="resume-doc-label">Open / Download</span>
+            </a>
           </div>
         </section>
 

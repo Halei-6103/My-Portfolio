@@ -3,7 +3,7 @@ import bgImage from './assets/ian_ascii.png'
 
 const OPERATION_SMILE_URL = 'https://halei-6103.github.io/OperationSmileLoyolaUniversity/'
 const GAVIN_PORTFOLIO_URL = 'https://halei-6103.github.io/GavinPortfolio/'
-
+const EFRAIN_LANDSCAPING_URL = 'https://efrain-landscaping-llc.vercel.app/'
 const MOBILE_WINDOW = 'width=390,height=844,scrollbars=yes,resizable=yes'
 const POPUP_WINDOW = 'width=1100,height=700,scrollbars=yes,resizable=yes'
 
@@ -32,6 +32,15 @@ const PROJECTS = [
     href: GAVIN_PORTFOLIO_URL,
     image: 'linear-gradient(135deg, #252525 0%, #151515 100%)',
     previewUrl: GAVIN_PORTFOLIO_URL,
+    openInPopup: true,
+  },
+  {
+    id: '4',
+    title: "Efrain Landscaping LLC",
+    label: '04',
+    href: EFRAIN_LANDSCAPING_URL,
+    image: 'linear-gradient(135deg, #252525 0%, #151515 100%)',
+    previewUrl: EFRAIN_LANDSCAPING_URL,
     openInPopup: true,
   },
 ]

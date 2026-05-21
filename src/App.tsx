@@ -24,7 +24,8 @@ const PROJECTS = [
     label: '02',
     href: NURSE_SIM_PLUS_URL,
     image: 'linear-gradient(135deg, #333 0%, #222 100%)',
-    comingSoon: true,
+    previewUrl: NURSE_SIM_PLUS_URL,
+    openInPopup: true,
   },
   {
     id: '3',
@@ -119,9 +120,7 @@ function App() {
                   ) : (
                     <span className="project-card-image-bg" style={{ background: project.image }} />
                   )}
-                  {'comingSoon' in project && project.comingSoon && (
-                    <span className="project-card-coming-soon">Coming Soon</span>
-                  )}
+                  
                 </span>
                 <span className="project-card-title">{project.title}</span>
               </a>

@@ -4,6 +4,7 @@ import bgImage from './assets/ian_ascii.png'
 const OPERATION_SMILE_URL = 'https://halei-6103.github.io/OperationSmileLoyolaUniversity/'
 const GAVIN_PORTFOLIO_URL = 'https://halei-6103.github.io/GavinPortfolio/'
 const EFRAIN_LANDSCAPING_URL = 'https://efrain-landscaping-llc.vercel.app/'
+const NURSE_SIM_PLUS_URL = 'https://www.nursesim.plus/'
 const MOBILE_WINDOW = 'width=390,height=844,scrollbars=yes,resizable=yes'
 const POPUP_WINDOW = 'width=1100,height=700,scrollbars=yes,resizable=yes'
 
@@ -21,7 +22,7 @@ const PROJECTS = [
     id: '2',
     title: 'NurseSim+',
     label: '02',
-    href: '#',
+    href: NURSE_SIM_PLUS_URL,
     image: 'linear-gradient(135deg, #333 0%, #222 100%)',
     comingSoon: true,
   },

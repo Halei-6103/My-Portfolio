@@ -145,7 +145,7 @@ function App() {
               <li>Senior Capstone Project: team lead, Flask + React app for OHSU Nursing</li>
             </ul>
             <a
-              href={`${import.meta.env.BASE_URL}Resume_Ian_Hale.pdf`}
+              href={`${import.meta.env.BASE_URL}Ian_Hale_CV.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="resume-doc-link"

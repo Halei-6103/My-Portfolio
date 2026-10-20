@@ -131,9 +131,9 @@ function App() {
         <section className="page-section" id="about">
           <h2 className="section-heading">About Me</h2>
           <div className="section-content about-content">
-            <p className="about-currently">Currently: Full-stack intern @ HireScore • Oregon State University CS (HCI) ’26</p>
+            <p className="about-currently">Currently: Software Engineer, Frontend @ HireScore • Oregon State University CS (HCI) ’26</p>
             <p className="about-body">
-              I'm Ian — a computer science student at Oregon State University, focused on human–computer interaction. I'm from Corvallis and work as a full-stack developer intern at HireScore (remote since July 2025), where I build production-ready UI with React and Mantine, refactor for clarity and performance, and focus on mobile responsiveness and accessibility. For my senior software engineering project, I'm team lead on a full-stack project for the OHSU Nursing Program — Flask and React, REST APIs, PostgreSQL, and real sprint and deployment workflows.
+              I'm Ian — a computer science student at Oregon State University, focused on human–computer interaction. I'm from Corvallis and work as a Software Engineer, Frontend at HireScore (remote since July 2025), where I build production-ready UI with React and Mantine, refactor for clarity and performance, and focus on mobile responsiveness and accessibility. For my senior software engineering project, I'm team lead on a full-stack project for the OHSU Nursing Program — Flask and React, REST APIs, PostgreSQL, and real sprint and deployment workflows.
             </p>
             <p className="about-body">
               When I'm not at the keyboard, I'm usually in the garage with my 1981 Honda CX500C, turning it into a scrambler style motorcycle. I'm also passionate about game development and hope to ship something that one day makes it to a stage like The Game Awards.
@@ -141,7 +141,7 @@ function App() {
             <ul className="quick-facts">
               <li>Corvallis, OR</li>
               <li>OSU · B.S. Computer Science (HCI), expected 2026</li>
-              <li>Full-stack intern @ HireScore (React, Mantine, accessibility)</li>
+              <li>Software Engineer, Frontend @ HireScore (React, Mantine, accessibility)</li>
               <li>Senior Capstone Project: team lead, Flask + React app for OHSU Nursing</li>
             </ul>
             <a
